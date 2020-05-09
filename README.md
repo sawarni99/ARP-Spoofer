@@ -5,3 +5,8 @@
   ./arp-spoof \<ip-address-of-target\> <br>
   ./arp-spoof \<ip-address-of-target\> \<ip-address-of-router\>
   
+### Features:
+ * It provides help if the syntax or IP Address is wrong.
+ * This program automatically takes the MAC address of the router and target from previously assigned ARP tables. 
+ * This program also assigns router’s IP address automatically if not specified.
+ * This program also takes two arguments if there is a specific router’s IP.
